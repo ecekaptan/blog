@@ -1,4 +1,4 @@
 baseURL = 'https://ecekaptan.github.io/blog/' # Update username and repo name later when launching
-languageCode = 'en-us'
+languageCode = 'en-US'
 title = 'Hugo'
 theme = 'ananke'
