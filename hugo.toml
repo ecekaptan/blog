@@ -1,17 +1,47 @@
-baseURL = 'https://ecekaptan.github.io/blog/' # Update username and repo name later when launching
+baseURL = 'https://ecekaptan.github.io/blog/'
 languageCode = 'en-US'
-title = ''
+title = 'Ece Kaptan'
 theme = 'PaperMod'
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+# JSON output on the home page powers the Search page.
+[outputs]
+home = ['HTML', 'RSS', 'JSON']
 
 [params]
 description = 'Notes on machine-learning security, reverse engineering, and safer model handling.'
-defaultTheme = 'light'
-mainSections = ['posts']
+author = 'Ece Kaptan'
+defaultTheme = 'auto'
+mainSections = ['posts', 'writeups']
+
 ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+ShowRssButtonInSectionTermList = true
+
+[params.label]
+text = 'Ece Kaptan'
 
 [params.homeInfoParams]
-Title = 'Security research'
-Content = 'Notes on machine-learning security, reverse engineering, cybersecurity.'
+Title = 'notes on security, reverse engineering, ml, and ai safety.'
+Content = '''
+Write-ups on how software and ML pipelines break covering binary analysis,
+model files and dependencies, vulnerabilities, and practical defense.
+'''
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/ecekaptan'
+
+[[params.socialIcons]]
+name = 'rss'
+url = 'index.xml'
 
 [[menu.main]]
 name = 'Posts'
@@ -19,6 +49,21 @@ url = '/posts/'
 weight = 10
 
 [[menu.main]]
+name = 'Writeups'
+url = '/writeups/'
+weight = 15
+
+[[menu.main]]
+name = 'Archive'
+url = '/archives/'
+weight = 20
+
+[[menu.main]]
 name = 'Tags'
 url = '/tags/'
-weight = 20
+weight = 30
+
+[[menu.main]]
+name = 'Search'
+url = '/search/'
+weight = 40
