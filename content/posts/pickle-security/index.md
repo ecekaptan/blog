@@ -21,7 +21,7 @@ PyTorch uses `torch.save()` to serialize an object and write it to a file. But i
 
 ### 2.2 torch.load()
 
-In the opposite direction, `torch.load()` reads the serialized representation and reconstructs the Python and PyTorch object.
+Conversely, `torch.load()` reads the serialized representation and reconstructs the Python and PyTorch object.
 
 ### 2.3 Where does pickle come in?
 
