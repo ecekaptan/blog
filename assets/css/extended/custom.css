@@ -1,13 +1,13 @@
 /* Site-specific tweaks on top of PaperMod. */
 
 :root {
-    --accent: #0f766e;
-    --accent-soft: rgba(15, 118, 110, 0.08);
+    --accent: #7c3aed;
+    --accent-soft: rgba(124, 58, 237, 0.08);
 }
 
 [data-theme="dark"] {
-    --accent: #5eead4;
-    --accent-soft: rgba(94, 234, 212, 0.08);
+    --accent: #a78bfa;
+    --accent-soft: rgba(167, 139, 250, 0.10);
 }
 
 /* ---------- Header ---------- */
