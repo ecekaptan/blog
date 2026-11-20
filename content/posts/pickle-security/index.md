@@ -1,5 +1,6 @@
 ---
 title: "The Security Risks of Loading PyTorch Models"
+summary: "A practical guide to pickle-based code execution risks in PyTorch checkpoints—and safer loading with weights_only and safetensors."
 date: 2026-10-02
 draft: false
 tags: ["security", "machine-learning", "pytorch", "reverse-engineering"]

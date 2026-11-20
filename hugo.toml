@@ -1,4 +1,24 @@
 baseURL = 'https://ecekaptan.github.io/blog/' # Update username and repo name later when launching
 languageCode = 'en-US'
-title = 'Hugo'
+title = ''
 theme = 'PaperMod'
+
+[params]
+description = 'Notes on machine-learning security, reverse engineering, and safer model handling.'
+defaultTheme = 'light'
+mainSections = ['posts']
+ShowReadingTime = true
+
+[params.homeInfoParams]
+Title = 'Security research'
+Content = 'Notes on machine-learning security, reverse engineering, cybersecurity.'
+
+[[menu.main]]
+name = 'Posts'
+url = '/posts/'
+weight = 10
+
+[[menu.main]]
+name = 'Tags'
+url = '/tags/'
+weight = 20
